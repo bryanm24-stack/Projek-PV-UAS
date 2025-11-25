@@ -10,7 +10,7 @@ export default function LoginPage() {
 
   useEffect(() => {
     if (user) {
-      if (user.role == " admin") {
+      if (user.role == "admin") {
         navigate('/admin');
       } else if (user.role == "company") {
         navigate('/company');
@@ -30,7 +30,7 @@ export default function LoginPage() {
       <div className="page-header">Job Seeker App</div>
       
       <div className="form-container">
-        <h2>Login</h2>
+        <h2>Logan</h2>
         
         {isLoginError && <p className="error-message">Login gagal! Username atau password salah.</p>}
 
@@ -62,4 +62,3 @@ export default function LoginPage() {
   );
 }
 
-halo
