@@ -10,7 +10,7 @@ export default function LoginPage() {
 
   useEffect(() => {
     if (user) {
-      if (user.role == "admin") {
+      if (user.role == " admin") {
         navigate('/admin');
       } else if (user.role == "company") {
         navigate('/company');
@@ -61,3 +61,5 @@ export default function LoginPage() {
     </div>
   );
 }
+
+halo
